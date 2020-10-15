@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219530984906",
+    "firebase_url": "https://smart-door-3ab68.firebaseio.com",
+    "project_id": "smart-door-3ab68",
+    "storage_bucket": "smart-door-3ab68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219530984906:android:d0599cc1cb74527894e333",
+        "android_client_info": {
+          "package_name": "com.aiman.smartdoorunlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219530984906-njrtm0rgiu7802p9ncukgmepi605do8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aiman.smartdoorunlock",
+            "certificate_hash": "47461100b07286a81b3f323ea63d4b75a73d60cc"
+          }
+        },
+        {
+          "client_id": "219530984906-eii0l0ig5k0h08eefdeeb1un3a51aaku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD_n2A5-R0yguKbVG87PvCmVvwGejg5m0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219530984906-eii0l0ig5k0h08eefdeeb1un3a51aaku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
