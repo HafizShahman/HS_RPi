@@ -1,4 +1,3 @@
-@@ -1,80 +0,0 @@
 import time, datetime
 import RPi.GPIO as GPIO
 import telepot
@@ -35,7 +34,7 @@ try:
         if distance >= 20:
             stat = "LOW"
 
-        if distance < 20 and distance > 5 :
+        if distance <= 20 and distance >= 5 :
             stat = "MEDIUM"
 
         if distance <= 5:
@@ -44,7 +43,7 @@ try:
         def action(msg):
             chat_id = msg['chat']['id']
             command = msg['text']
-            print 'Received: %s' % command
+            print ('Received: %s') % command
             if 'check' in command:
                 message = "Check Bin"
 
@@ -54,7 +53,7 @@ try:
         telegram_bot = telepot.Bot('1352974784:AAETpsuwTig8cFTWq08rsAxlB-kfkd7_4MU')
         print (telegram_bot.getMe())
         MessageLoop(telegram_bot, action).run_as_thread()
-        print 'Up and Running....'
+        print ('Up and Running....')
         while 1:
             time.sleep(10)
 
