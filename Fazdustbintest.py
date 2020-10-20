@@ -34,10 +34,10 @@ try:
         if distance >= 20:
             stat = "LOW"
 
-        if distance <= 20 and distance >= 5 :
+        elif distance <= 20 and distance >= 5 :
             stat = "MEDIUM"
 
-        if distance <= 5:
+        elif distance <= 5:
             stat = "HIGH"
 
         def action(msg):
